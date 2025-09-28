@@ -61,8 +61,10 @@ AI Travel Planner는 FastAPI와 최신 AI 기술을 결합하여 강릉 지역�
 ### 1. GCP -> VM 생성(스토리지 20GB 이상) or 로컬 
 
 ### 2. 레포지토리 클론
-'''
 
-'''
+```
+git clone https://github.com/DDukSoon/GangneungPlanner.git
+```
+
 ###
 ### 3. 필수 패키지 설치
