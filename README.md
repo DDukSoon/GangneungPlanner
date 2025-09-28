@@ -59,12 +59,25 @@ AI Travel Planner는 FastAPI와 최신 AI 기술을 결합하여 강릉 지역�
 
 ## 환경 설정
 ### 1. GCP -> VM 생성(스토리지 20GB 이상) or 로컬 
-
+- **GCP를 이용할 경우** : 방화벽 설정 필요
+  
 ### 2. 레포지토리 클론
 
 ```
 git clone https://github.com/DDukSoon/GangneungPlanner.git
 ```
 
-###
+### 3. Conda 사용(선택)
+
+```
+conda create -n planner python=3.11
+conda activate planner
+```
+
 ### 3. 필수 패키지 설치
+
+```
+pip install requirements.txt
+```
+
+
