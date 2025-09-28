@@ -103,5 +103,4 @@ python create_db.py
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 # 접속: http://localhost:8000 또는 http://IP주소:8000
-
 ```
