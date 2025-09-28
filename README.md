@@ -1,10 +1,10 @@
 # 🏖️ AI Travel Planner - Gangneung
 
-한국관광공사 API와 LangChain RAG를 활용한 **강릉 지역 특화 AI 여행 계획 생성 시스템**
+한국관광공사 API와 LangChain RAG를 활용한 **강릉 지역 AI 여행 계획 생성 시스템**
 
 ## 🎯 프로젝트 개요
 
-AI Travel Planner는 FastAPI와 최신 AI 기술을 결합하여 강릉 지역의 맞춤형 여행 일정을 자동으로 생성하는 인텔리전트 시스템입니다. 한국관광공사 공식 API 데이터를 기반으로 한 벡터 데이터베이스와 OpenAI GPT-4o 모델을 활용하여, 사용자의 선호도와 여행 스타일에 최적화된 일정을 제공합니다.
+AI Travel Planner는 강릉 지역 여행 일정을 자동으로 생성하는 웹 API입니다. 한국관광공사 API에서 수집한 관광지 데이터를 ChromaDB에 저장하고, OpenAI GPT-4o를 사용해 사용자 요청에 맞는 여행 계획을 만듭니다.
 
 ## ✨ 주요 기능
 
