@@ -104,4 +104,12 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ### 3. API 호출
-# 접속: http://IP:
+호출 예시
+```
+curl -X POST "http://<ip-address>:8000/plan" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "query": "강릉 1박 2일 커플 여행. 로맨틱한 카페와 바다 뷰 맛집 추천해주세요."
+     }'
+
+```
