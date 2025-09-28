@@ -34,6 +34,6 @@ AI Travel Planner는 FastAPI와 최신 AI 기술을 결합하여 강릉 지역�
 
 ### Backend Framework
 
-FastAPI 0.104+ # 고성능 비동기 웹 API 프레임워크
-Pydantic 2.0+ # 데이터 검증 및 시리얼화
-Uvicorn # ASGI 서버
+- **FastAPI** 0.104+ # 고성능 비동기 웹 API 프레임워크
+- **Pydantic** 2.0+ # 데이터 검증 및 시리얼화
+- **Uvicorn** # ASGI 서버
