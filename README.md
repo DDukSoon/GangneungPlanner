@@ -101,6 +101,7 @@ python create_db.py
 ```
 # 자동 리로드 + 모든 IP 접근 허용
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-
-# 접속: http://localhost:8000 또는 http://IP주소:8000
 ```
+
+### 3. API 호출
+# 접속: http://IP:
