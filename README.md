@@ -80,4 +80,7 @@ conda activate planner
 pip install requirements.txt
 ```
 
+### 4. api 키 설정
+
+
 
