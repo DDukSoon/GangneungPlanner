@@ -90,3 +90,18 @@ OPENAI_API_KEY=<your-openai-api-key-here>
 # 한국관광공사 API 키 (필수)
 KNTO_KEY=your-<knto-service-key-here>
 ```
+## 실행
+
+### 1. 강릉 관광 정보 DB 생성
+```
+python create_db.py
+```
+
+### 2. 서버 실행
+```
+# 자동 리로드 + 모든 IP 접근 허용
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+# 접속: http://localhost:8000 또는 http://IP주소:8000
+
+```
