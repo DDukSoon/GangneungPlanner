@@ -34,27 +34,27 @@ AI Travel Planner는 FastAPI와 최신 AI 기술을 결합하여 강릉 지역�
 
 ### Backend Framework
 
-- **FastAPI** 0.104+ # 고성능 비동기 웹 API 프레임워크
-- **Pydantic** 2.0+ # 데이터 검증 및 시리얼화
-- **Uvicorn** # ASGI 서버
+- **FastAPI**  
+- **Pydantic**  
+- **Uvicorn**
 
 ### AI & Machine Learning
 
-- **LangChain** 0.1+ # LLM 애플리케이션 구축 프레임워크
-- **OpenAI GPT-4o** # 대화형 AI 모델
-- **HuggingFace(`jhgan/ko-sroberta-multitask`)** # 한국어 임베딩 모델
-- **Transformers** # 트랜스포머 모델 라이브러리
+- **LangChain**
+- **OpenAI GPT-4o** 
+- **HuggingFace(`jhgan/ko-sroberta-multitask`)**
+- **Transformers** 
 
 ### Vector Database & Search
 
-- **ChromaDB** # 벡터 데이터베이스
-- **Geopy** # 지리적 거리 계산
-- **Pandas** # 데이터 처리 및 분석
+- **ChromaDB** 
+- **Geopy** 
+- **Pandas**
 
 ### External APIs
 
-- **한국관광공사 API** # 관광지 정보 수집
-- **강릉시 공공데이터** # 주차장 정보
+- **한국관광공사 API** 
+- **강릉시 공공데이터** 
 
 
 ## 환경 설정
