@@ -82,5 +82,11 @@ pip install requirements.txt
 
 ### 4. api 키 설정
 
+-- .env 파일에 api 키 설정 
+```
+# OpenAI API 키 (필수)
+OPENAI_API_KEY=<your-openai-api-key-here>
 
-
+# 한국관광공사 API 키 (필수)
+KNTO_KEY=your-<knto-service-key-here>
+```
